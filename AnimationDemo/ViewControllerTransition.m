@@ -114,7 +114,9 @@
     
     
     [UIView animateWithDuration:self.transitionDuration delay:0.f usingSpringWithDamping:1.f initialSpringVelocity:0.5 options:0 animations:^{
-        tempView.transform = CGAffineTransformMakeScale(0., 0.);
+        tempView.transform = CGAffineTransformMakeScale(0., 0);
+//        tempView.layer.transform = CATransform3DMakeScale(0.8, 0.8, 0.8);
+//        tempView.frame = CGRectMake(tempView.centerX, tempView.centerY, 0, 0);
         tempView.alpha = 0.;
         
         toVC.view.alpha = 1.f;
