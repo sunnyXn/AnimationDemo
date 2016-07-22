@@ -5,3 +5,4 @@ ViewControler  Transition Animation
 暂未实现手势与模式翻转
 
 
+http://img.zcool.cn/community/01f08155b607c032f875251fc81d45.gif
